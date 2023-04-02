@@ -1,0 +1,13 @@
+extends layout.pug 
+
+block content 
+ div.containeer 
+  h1 All Students 
+
+  each student in students 
+    div.student-wrapper
+      a.student(href=student.id) #{student.firstName}  #{student.lastName}
+    div.column
+      a.read(href=`/students/${student.id}`) Read
+      a.edit(href=`/edit/${student.id}`) Edit 
+      a.delete(href=`/students/delete/${student.id}`) Delete

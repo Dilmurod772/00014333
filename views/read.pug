@@ -1,0 +1,30 @@
+extends layout.pug 
+
+block content 
+    .student_info
+        h4 Personal Information 
+        .personal_info  
+            div
+            p Name:  
+            p #{ student.firstName }
+            div 
+            p Fullname:
+            p #{ student.lastName } 
+            div 
+            p Mid Name: 
+            p #{student.middleName}
+            div
+            p Address: 
+            p #{student.address} 
+            div 
+            p Email Address:
+            p #{student.emailAddress}
+            div 
+            p Phone Number:
+            p #{student.phoneNumber} 
+            div 
+            p Level Of Study:
+            p #{student.level} 
+            div 
+            p Course Title:
+            p #{student.courseTitle}

@@ -1,0 +1,38 @@
+extends layout.pug
+
+block content 
+    form.form(action="/create" method='POST') 
+        .title
+            h2 Create a student information 
+            if error 
+                p.error You made some mistake while filling the form. Please try again! 
+            if success 
+                p.success The student's information was added to database!
+            .first-name
+                label.label(for="first-name-input") First name:
+                input.input(type="text" name = "firstName" id="first-name-input")
+            .last-name
+                label.label(for="last-name-input") Last name: 
+                input.input(type="text" name = "lastName" id="last-name-input")
+            .middle-name
+                label.label(for="middle-name-input") Mid name: 
+                input.input(type="text" name = "middleName" id="middle-name-input")
+            .address
+                label.label(for="address-input") Address: 
+                input.input(type="text" name = "address" id="address-input")    
+            .email-address
+                label.label(for="email-address-input") Email address: 
+                input.input(type="text" name = "emailAddress" id="email-address-input")
+            .phone-number
+                label.label(for="phone-number-input") Phone number: 
+                input.input(type="text" name = "phoneNumber" id="phone-number-input")
+            .level
+                label.label(for="level-input") Level: 
+                input.input(type="number" name = "level" max = "6" min = "3" id="course-input")
+            .course-title
+                label.label(for="course-title-input") Course title: 
+                input.input(type="text" name = "courseTitle" id="course-title-input")
+            .btn-container 
+                button.btn Create
+
+                

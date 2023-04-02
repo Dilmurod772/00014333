@@ -1,0 +1,203 @@
+ :root {
+    font-size: 20px;
+    color: #444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    max-width: 1000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted #ccc;
+    padding: 8px;
+    
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+.containeer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.section {
+    margin: 0 auto;
+    padding: 10px 40px;
+} 
+
+.intro-msg {
+    padding: 55px 0 30px 0;
+    font-size: 2rem;
+    max-width: 90%;
+}
+
+
+.featured{
+    justify-content: center;
+    margin: 5px;
+    background: rgb(71, 77, 255);
+    padding: 15px 25px;
+}
+
+.btns{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    margin-left: 25rem;
+}
+
+.title {
+    max-width: 40%;
+    display: block;
+    font-size: 1.2rem;
+    border: 1px, solid, #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4rem;
+}
+
+.input {
+    font-size: 1.1rem;
+    border: 1px, solid, #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.address .input{
+    margin-left: 70px;
+}
+
+.first-name .input {
+    margin-left: 55px;
+}
+
+.last-name .input {
+    margin-left: 51px;
+}
+
+.middle-name .input {
+    margin-left: 52px;
+}
+
+.email-address .input{
+    margin-left: 13px;
+}
+
+.phone-number .input {
+    margin-left: 10px;
+}
+
+.level .input {
+    margin-left: 95px;
+}
+
+.age .input {
+    margin-left: 109px;
+}
+
+.course-title .input {
+    margin-left: 38px;
+}
+
+
+.btn {
+    display: inline-block; 
+    font-size: 1.3rem;
+    border: none;
+    padding: 5px 25px;
+    color: white;
+    background: #0000ffc5;
+    padding: 5px 15px;
+    margin-left: 8rem;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.student-wrapper{
+    max-width: 60%;
+    padding: 10px;
+    display: flex;
+    border-bottom: 2px solid rgb(91, 87, 87);
+}
+
+.student-wrapper a {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+.column {
+    overflow: hidden;
+}
+
+.column a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.edit {
+    color: rgb(14, 14, 248);
+}
+
+.read {
+    color: rgb(14, 14, 248);
+}
+
+.delete {
+    color: rgb(221, 23, 23);
+}
+
+.info {
+    border-bottom: 1px solid #ccc;
+    padding-left: 6rem;
+}
+
+.student_info {
+    padding: 20px;
+    /* max-width: 40%; */
+}
+
+.student_info h4 {
+    padding-left: 8px;
+}
+
+.personal_info p {
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+
