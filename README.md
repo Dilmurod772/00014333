@@ -10,6 +10,6 @@ To run the app, user should install the node_modules. To install the node module
 
 Application dependencies’ list are express and pug.
 
-Link of the application: 
+Link of the application: https://polyester-chlorinated-honeysuckle.glitch.me
 
 
